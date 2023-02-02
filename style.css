@@ -6,7 +6,7 @@ body{
     font-size: 14px;
     padding-bottom: 30px;
     height: 100%;
-    background-color: #4ea133;
+    background-color: #ffffff;
     
     
     
@@ -15,13 +15,16 @@ body{
     display: none !important;
 }
 .colorGold{
-    color: #e1a415 !important;
+    color: #4ea133 !important;
 }
 .colorGreen{
     color: #4ea133 !important;
 }
+.blackBackground{
+    background-color: #000 !important;
+}
 .mainContainer{
-    background-color: #e1a415;
+    background-color: #ffffff;
     height:auto;
     width: 100%;
     border-radius: 10% 8% 20% 30% ;
@@ -69,7 +72,7 @@ body{
     height: 95%;
     width: 95%;
     border-radius: 100%;
-    background-color: #000;
+    background-color: #d8d1d5;
 }
 .primaryImg{
     width: 100%;
@@ -79,7 +82,7 @@ body{
 }
 .topPage{
     
-    background-color: white;
+    background-color: rgb(236, 234, 234);
     height: auto;
     padding-top: 50px;
     width: 100%;
@@ -146,7 +149,7 @@ h1{
     margin-bottom: 3px;
 }
 .text1{
-    color: #cecece;
+    color: #4d4d4d;
     text-align: center;
     font-size: 12px;
     
