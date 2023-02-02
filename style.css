@@ -1,58 +1,145 @@
 body{
-    background-color: #4a9f06;
+    
     color: white;
     font-family: 'Poppins', sans-serif;
-    
+    margin: 0;
     font-size: 14px;
-    padding: 0;
+    padding-bottom: 30px;
+    height: 100%;
+    background-color: #4ea133;
     
     
     
 }
+.displayDesktop{
+    display: none !important;
+}
+.colorGold{
+    color: #e1a415 !important;
+}
+.colorGreen{
+    color: #4ea133 !important;
+}
 .mainContainer{
+    background-color: #e1a415;
+    height:auto;
+    width: 100%;
+    border-radius: 10% 8% 20% 30% ;
+    padding-bottom: 40px;
     
-    
+}
+.logoContainer{
+    background-color: white;
+    border-radius: 100%;
+    width: 95px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5px;
+    top: 5px;
 }
 
 .logoMicro{
     width: 100px;
     height: 100px;
+    
+
+}
+.primaryImgContainer{
+    width: 410px;
+    height: 410px;
+    background-color: white;
+    border-radius: 100%;
+    
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 15px rgba(77, 77, 77, 0.452);
+    z-index: 8;
+    
+    
+}
+.prymaryImgPosition{
+    position: relative;
+    left: -50px;
+    top: 10px;
+}
+.primaryImgBackground{
+    height: 95%;
+    width: 95%;
+    border-radius: 100%;
+    background-color: #000;
+}
+.primaryImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: scale-down;
+}
+.topPage{
+    
+    background-color: white;
+    height: auto;
+    padding-top: 50px;
+    width: 100%;
+    position: relative;
+    border-radius: 10px 30% 10px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    
 }
 h1{
-    color: #ecac1b;
-    font-weight:normal;
+    color:#4ea133;
+    font-weight:bold;
     text-align: center;
     font-size: 24px;
-    margin-top: 0px;
+    margin: 0;
+    padding-top: 48px;
+    
+    
 }
 .subtitle{
-    color: #ecac1b;
-    font-weight: normal;
+    color: #4ea133;
+    font-weight: bold;
     text-align: center;
     font-size: 18px;
+    
 }
 .text{
     text-align: justify;
     padding: 8px;
+    color: #000;
+    
     
     
 }
 .footerFlexContainer{
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 .footerFlex{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     
 }
 .link{
-    width: 60px;
+    width: 100px;
     cursor: pointer;
     justify-self: end;
 }
+.smaller{
+    width: 60px !important;
+}
+.bigger{
+    width: 200px;
+}
 .subtitle1{
-    color: #cecece;
+    color: #000;
     font-weight: normal;
     text-align: center;
     font-size: 16px;
@@ -72,15 +159,44 @@ h1{
 
 }
 @media (min-width: 1200px) {
+    .displayMobile{
+        display: none;
+    }
+    .displayDesktop{
+        display:block !important;
+    }
+    .prymaryImgPosition{
+        top: 130px;
+    }
+    .secondaryImgPosition{
+        position: absolute !important;
+        right: 30px;
+        top: 590px;
+        z-index: 0;
+    }
     
+    .logoContainer{
+        right: 60px;
+        top: 60px;
+        width: 250px !important;
+        height: 250px;
+    }
     .logoMicro{
-        margin: 20px 0px 0px 60px;
+        width: 100%;
+        height: 100%;
     }
     h1{
         margin: 0px;
     }
+    .topPage{
+        width: 55%;
+        margin: 0 auto;
+        top: -150px;
+        z-index: 5;
+        border-radius: 10px 30% 15% 10% ;
+    }
     .text{
-        width: 800px;
+        width: 95%;
         margin: 0 auto;
         margin-bottom: 48px;
     }
@@ -88,10 +204,11 @@ h1{
         margin-bottom: 24px;
     }
     .footerFlexContainer{
-        justify-content: space-around;
-        margin-top: 48px;
+        width: 70%;
+        margin: 0 auto;
     }
-    .mainContainer{
-        margin: 40px;
+    .bigger{
+        width: 250px;
     }
+    
 }
