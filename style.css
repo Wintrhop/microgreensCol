@@ -15,7 +15,7 @@ body{
     display: none !important;
 }
 .colorGold{
-    color: #4ea133 !important;
+    
 }
 .colorGreen{
     color: #4ea133 !important;
@@ -40,8 +40,9 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 5px;
     top: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .logoMicro{
@@ -82,7 +83,7 @@ body{
 }
 .topPage{
     
-    background-color: rgb(236, 234, 234);
+    background-color: #4ea133;
     height: auto;
     padding-top: 50px;
     width: 100%;
@@ -100,12 +101,12 @@ h1{
     text-align: center;
     font-size: 24px;
     margin: 0;
-    padding-top: 48px;
+    padding-top: 98px;
     
     
 }
 .subtitle{
-    color: #4ea133;
+    color: #f1b322;
     font-weight: bold;
     text-align: center;
     font-size: 18px;
@@ -114,7 +115,7 @@ h1{
 .text{
     text-align: justify;
     padding: 8px;
-    color: #000;
+    color: #ffffff;
     
     
     
