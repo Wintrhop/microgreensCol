@@ -133,6 +133,9 @@ h1{
     justify-content: space-evenly;
     
 }
+.sena{
+    width: 100px;
+}
 .link{
     width: 100px;
     cursor: pointer;
@@ -182,8 +185,9 @@ h1{
     }
     
     .logoContainer{
-        right: 60px;
-        top: 60px;
+        
+        
+        top: 70px;
         width: 250px !important;
         height: 250px;
     }
@@ -212,6 +216,14 @@ h1{
     .footerFlexContainer{
         width: 70%;
         margin: 0 auto;
+    }
+    .socialNetwork{
+        position: absolute;
+        top:60%;
+        left: 8%;
+    }
+    .columDirection{
+        flex-direction: column;
     }
     .bigger{
         width: 250px;
